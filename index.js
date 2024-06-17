@@ -19,7 +19,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'githubUsername',
+        name: 'gitUsername',
         message: 'What is your GitHub Username? (Required)',
         validate: githubInput => {
             if (githubInput) {
